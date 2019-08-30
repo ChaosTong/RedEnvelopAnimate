@@ -12,6 +12,7 @@
 		0FAA9F432318F13C00BD3E71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FAA9F412318F13C00BD3E71 /* Main.storyboard */; };
 		0FAA9F452318F13F00BD3E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FAA9F442318F13F00BD3E71 /* Assets.xcassets */; };
 		0FAA9F482318F13F00BD3E71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FAA9F462318F13F00BD3E71 /* LaunchScreen.storyboard */; };
+		0FAA9F502318F34D00BD3E71 /* RedEnvelopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAA9F4F2318F34D00BD3E71 /* RedEnvelopView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0FAA9F442318F13F00BD3E71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FAA9F472318F13F00BD3E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FAA9F492318F13F00BD3E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FAA9F4F2318F34D00BD3E71 /* RedEnvelopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedEnvelopView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				0FAA9F442318F13F00BD3E71 /* Assets.xcassets */,
 				0FAA9F462318F13F00BD3E71 /* LaunchScreen.storyboard */,
 				0FAA9F492318F13F00BD3E71 /* Info.plist */,
+				0FAA9F4F2318F34D00BD3E71 /* RedEnvelopView.swift */,
 			);
 			path = redenvelop;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FAA9F402318F13C00BD3E71 /* ViewController.swift in Sources */,
+				0FAA9F502318F34D00BD3E71 /* RedEnvelopView.swift in Sources */,
 				0FAA9F3E2318F13C00BD3E71 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9Y74876TPS;
 				INFOPLIST_FILE = redenvelop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9Y74876TPS;
 				INFOPLIST_FILE = redenvelop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
